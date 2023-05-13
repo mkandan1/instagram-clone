@@ -1,0 +1,16 @@
+
+.meta_beg {
+    font-size: .68rem;
+}
+
+.meta__tradeMark {
+    font-weight: 600;
+    font-size: .87rem;
+}
+
+.footer > a{
+    text-decoration: none;
+    font-size: .68rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
