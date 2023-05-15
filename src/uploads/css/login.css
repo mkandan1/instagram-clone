@@ -75,6 +75,11 @@ button {
     font-size: .87rem;
 }
 
+.error {
+    color: red;
+    font-size: .78rem;
+}
+
 .footer {
     margin-bottom: 4vh;
 }

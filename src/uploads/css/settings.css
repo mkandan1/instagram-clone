@@ -1,0 +1,144 @@
+.pagecontent {
+    display: none;
+}
+
+.tab-btn {
+    background-color: #fff !important;
+    font-size: .67rem !important;
+    border: none;
+}
+
+.active {
+    border-bottom: #fff;
+}
+
+hr {
+    width: 50%;
+}
+
+.tab-btn:hover {
+    color: royalblue;
+}
+
+.pagecontent:nth-child(1){
+    display: block;
+}
+
+.pagecontent > h4 {
+    font-size: .89rem;
+    font-weight: 600;
+}
+
+.pagecontent {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.edit__profile-change > img {
+    width: 3rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #e3e3e3;
+}
+.edit__profile-btn-container > span {
+    font-weight: 500;
+}
+
+.edit__profile-btn {
+    width: 10rem !important;
+    font-size: .79rem !important;
+    border: none;
+    color: royalblue;
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+
+}
+
+.edit__bio > h5 {
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+.spam__list {
+    width: 100%;
+    
+    overflow-y: auto;
+}
+
+
+.pic {
+    width: 2rem;
+    box-shadow: 0 0 0 1px #e3e3e3;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+textarea {
+    width: 60%;
+    border: 1px solid #e3e3e3;
+}
+
+.bio__error {
+    color: red;
+    font-size: .74rem;
+}
+
+.edit__save-btn {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0095F6;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: .79rem;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+table {
+    width: 500px;
+    height: 200px;
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+    font-size: .76rem;
+  }
+    
+  td {
+    text-align: left;
+    font-size: .73rem;
+  }
+
+  .password__change > h5 {
+    font-size: .76rem;
+  }
+
+  .password__change > a {
+    text-decoration: none;
+    font-size: .73rem;
+  }
+
+@media screen and (min-width: 768px){
+    hr{
+        width: 60% !important;
+    }
+     .pagecontent {
+        margin-left: 50px;
+    }
+    textarea{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 328px){
+    hr{
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+    
+}

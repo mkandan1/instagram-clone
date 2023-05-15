@@ -1,0 +1,93 @@
+.reset__wrapper {
+    box-shadow: 0px 0px 0px 0px #eaeaea;
+    padding: 40px;
+}
+
+
+.reset__content-container > h5 {
+    font-size: 1.02rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.reset__content-container > p {
+    color: #737373;
+    font-size: .83rem;
+}
+
+.divider > span {
+    font-weight: 600;
+    color: #737373;
+    font-size: .78rem;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #eaeaea;
+}
+
+.input-class {
+    width: 100%;
+    height: 2.4rem;
+    font-size: .89rem;
+    border: 0.1px solid #b8b8b8;
+    border-radius: 2px;
+    padding-left: 8px;
+    color: #000;
+}
+
+.input-class::placeholder {
+    color: #a7a7a7;
+    font-weight: 400;
+    font-size: .79rem;
+}
+
+.reset__btn {
+    height: 5vh;
+    font-size: .97rem;
+}
+
+.input-class:focus {
+    border: 0.1px solid #b8b8b8;
+    outline: none;
+}
+
+.create__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.backtoLogin__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 0px #eaeaea;
+    height: 7vh;
+}
+
+.backtoLogin__container > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: .84rem;
+}
+
+.create__container > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: .84rem;
+}
+
+@media screen and (min-width: 768px){
+    .reset__wrapper {
+        box-shadow: 0px 0px 0px 1px #dedede;
+    }
+    .backtoLogin__container {
+        box-shadow: 0 0 0 1px #eaeaea;
+    }
+}

@@ -1,0 +1,102 @@
+.profile__images {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #e3e3e3;
+}
+
+.profile__about-header > div > h4 {
+    font-size: 1.2rem;
+}
+
+.profile__about-header > div > a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0095F6;
+    border-radius: 8px;
+    padding: 7px 15px 5px 15px;
+    font-size: .79rem;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.profile_states > span {
+    font-size: .84rem;
+}
+
+.profile_name > h5 {
+    font-size: .86rem;
+}
+
+.profile__bio > p{
+    font-size: .82rem;
+}
+
+.post__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post_profile {
+    position: relative;
+    margin: 2px;
+}
+
+
+.post_profile:hover {
+    opacity: .90;
+}
+
+.post_profile::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .05;
+    transition: all 0.5s ease 0s;
+    background-color: #000;
+}
+
+.post_profile:hover::after {
+    opacity: .2;
+}
+
+.post__profile-img {
+    width: 15rem;
+}
+
+@media screen and (min-width: 768px){
+    .profile__images {
+        width: 10rem;
+        height: 10rem;
+    }
+    .profile_name > h5 {
+        font-size: .86rem;
+    }
+}
+
+
+@media screen and (min-width: 320px){
+    .profile__images {
+        width: 6rem;
+        height: 6rem;
+    }
+    .profile_name > h5 {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .profile__images {
+        width: 5rem;
+        height: 5rem;
+    }
+    .profile_name > h5 {
+        font-size: .94rem;
+    }
+}

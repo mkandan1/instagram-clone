@@ -1,0 +1,122 @@
+.scrollable {
+    overflow-y: visible;
+}
+
+.user__profile-home {
+    width: 3rem;
+    border-radius: 50px;
+    box-shadow: 0 0 0 1px #e3e3e3;
+}
+
+.user__profile-name > a, .user__profile-name > span {
+    font-size: .87rem;
+    margin: 0;
+    padding: 0;
+}
+
+.user__profile-name > a {
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.logout {
+    margin-left: 2vw;
+    font-weight: 500;
+    font-size: .69rem;
+}
+
+.suggested__container > h5 {
+    font-size: .83rem;
+    font-weight: 500;
+    color: #737373;
+}
+
+
+.friend__profile-home {
+    border-radius: 50%;
+    width: 2.6rem;
+    height: 2.6rem;
+    box-shadow: 0 0 0 1px #e3e3e3;
+}
+
+.friend__profile-shortcut > a, .friend__profile-shortcut > span{
+    text-decoration: none;
+    color: #000;
+    font-size: .78rem;
+    font-weight: 500;
+    display: block;
+}
+
+.friend__profile-shortcut > span {
+    color: #737373;
+    font-weight: 400;
+    font-size: .65rem;
+}
+
+.home__footer > a {
+    color: #737373;
+    text-decoration: none;
+    font-size: .64rem;
+    margin-left: 5px;
+}
+
+.author__profile-visit {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.author__profile-visit > a, .author__profile-visit > p {
+    text-decoration: none;
+    color: #000;
+    font-size: .78rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.author__profile-details > p {
+    font-size: .67rem;
+    margin: 0;
+}
+
+.post__img {
+    width: 100% !important;
+    border-radius: 3px;
+}
+
+.post__footer {
+    margin-top: 2vh;
+}
+
+.post__reaction > span {
+    margin-right: 10px;
+    color: #737373;
+}
+
+.likes {
+    
+    font-size: .8rem;
+}
+
+.comment {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: none;
+}
+
+.comment:focus {
+    outline: none;
+}
+
+.post__comments >p{
+    display: inline;
+    font-size: .76rem;
+}
+
+hr {
+    color: #737373;
+}

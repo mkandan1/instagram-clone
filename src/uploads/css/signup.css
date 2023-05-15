@@ -1,0 +1,9 @@
+.terms_container > p {
+    font-size: .73rem;
+    color: #777;
+    text-align: center;
+}
+
+.reset__content-container > h5 {
+    color: #737373 !important;
+}

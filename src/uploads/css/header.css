@@ -13,6 +13,18 @@ header {
     width: 7rem;
 }
 
+.fa-facebook-messenger {
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+svg {
+}
+
 @media screen and (max-width: 768px){
     .logo__wrapper {
         margin-left: 0;

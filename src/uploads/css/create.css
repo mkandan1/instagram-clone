@@ -1,0 +1,97 @@
+label, .post__btn {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0095F6;
+    border-radius: 8px;
+    padding: 7px 15px 5px 15px;
+    font-size: .79rem;
+    cursor: pointer;
+    border: none;
+}
+
+.create__upload {
+    display: block;
+}
+
+.file-upload-filename {
+    display: none;
+    width: 10rem;
+}
+
+
+.preview {
+    width: 20rem;
+    margin: 0;
+    display: none;
+}
+
+.change__post__btn {
+    display: none;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 7px 15px 5px 15px;
+    font-size: .79rem;
+    cursor: pointer;
+    border: none;
+}
+
+.post__btn{
+    display: none;
+}
+
+.upload {
+    height: 100vh;
+}
+
+
+.upload__wrapper {
+    padding: 1rem 2rem;
+    box-shadow: 0 0 0 1px #e3e3e3;
+    border-radius: 10px;
+}
+
+
+hr{
+    margin: 10px;
+    width: 100%;
+}
+
+.upload__title {
+    font-weight: 600;
+    font-size: .84rem;
+}
+.custom-file-input {
+    display: none;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  .custom-file-input::before {
+    content: 'Select photos from gallery';
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 10pt;
+  }
+
+.create__upload {
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 768px){
+    .create__wrapper {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 328px){
+    .create__wrapper {
+        width: 100%;
+    }
+}
